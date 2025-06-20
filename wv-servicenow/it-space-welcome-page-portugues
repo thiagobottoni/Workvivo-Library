@@ -1,0 +1,213 @@
+<!-- Banner with Welcome & Search Bar -->
+<div style="width: 100%; background: #052839; border-radius: 16px 16px 0 0; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 28px 10px;">
+    <span style="color: #fff; font-size: 2rem; font-weight: bold; letter-spacing: 1px; text-align: center; margin-bottom: 15px; font-family: 'Helvetica', Arial, sans-serif;">Bem-Vindo(a) ao Espa&ccedil;o de TI</span>
+    <!-- Simulated Search Bar -->
+    <a
+        style="display: flex; align-items: center; width: 90%; max-width: 420px; background: #e5e8ea; border: 1.5px solid #b7b7b7; border-radius: 12px; padding: 8px 18px; text-decoration: none; box-shadow: 0 2px 8px rgba(51, 52, 52, 0.06);"
+        href="<INSIRA_LINK_BUSCA_WORKVIVO>"
+        rel="noopener"
+    >
+        <span style="font-size: 1.25rem; color: #21968b; margin-right: 12px;">🔍</span> <span style="color: #888; font-size: 1.07rem; flex: 1; text-align: left; font-family: 'Helvetica', Arial, sans-serif;">Como podemos ajudar?</span>
+    </a>
+</div>
+<!-- Menu Bar -->
+<div
+    style="
+        width: 100%;
+        background: #2b3069;
+        text-align: center;
+        padding: 12px 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px 20px;
+    "
+>
+    <a style="text-decoration: none; font-weight: 600; font-size: 1.1rem; font-family: 'Helvetica', Arial, sans-serif;" href="<INSIRA_LINK_FEED_ESPACO_WORKVIVO>"><span style="color: #fff;">An&uacute;ncios</span></a>
+    <span style="color: #fff; font-weight: 600;">|</span>
+    <a style="text-decoration: none; font-weight: 600; font-size: 1.1rem; font-family: 'Helvetica', Arial, sans-serif;" href="<INSIRA_LINK_FAQ_WORKVIVO>"><span style="color: #fff;">Perguntas Frequentes</span></a>
+</div>
+<!-- Main Container -->
+<div style="max-width: 1000px; margin: 0 auto 24px auto; padding: 24px; background: #fff; border-radius: 16px; box-shadow: 0 4px 24px rgba(51, 52, 52, 0.08); font-family: 'Helvetica', Arial, sans-serif; color: #222;">
+    <div style="text-align: center; font-size: 1.1rem; margin-bottom: 32px; color: #444;">
+        O Departamento de TI potencializa nosso neg&oacute;cio ao fornecer tecnologia confi&aacute;vel, sistemas seguros e suporte &aacute;gil. Gerenciamos a infraestrutura digital, impulsionamos a inova&ccedil;&atilde;o e garantimos que
+        todos tenham as ferramentas necess&aacute;rias para alcan&ccedil;ar o sucesso.
+    </div>
+    <!-- Cards Grid -->
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 32px;">
+        <!-- Card 1: Open IT Ticket -->
+        <div
+            style="
+                background: #f0f3f4;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+                padding: 28px 18px;
+                text-align: center;
+                width: 260px;
+                min-width: 210px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 10px;
+            "
+        >
+            <div style="font-size: 2.5rem; margin-bottom: 16px; color: #21968b;">🙋🏻&zwj;♀️</div>
+            <div style="font-weight: 600; font-size: 1.15rem; margin-bottom: 8px; color: #333434;">Me Ajude</div>
+            <div style="font-size: 1rem; color: #555; margin-bottom: 20px;">Precisa de Ajuda? Abra um chamado que nosso time ir&aacute; apoiar.</div>
+            <a
+                style="display: inline-block; width: 180px; text-align: center; padding: 12px 0; background: #5bd150; border-radius: 24px; text-decoration: none; font-weight: 500; font-size: 1.07rem;"
+                href="<INSIRA_LINK_CRIAR_CHAMADO_SERVICENOW>"
+                target="_blank"
+                rel="noopener"
+            >
+                <span style="color: #052839;">Abrir Chamado</span>
+            </a>
+        </div>
+        <!-- Card 2: Service Catalog -->
+        <div
+            style="
+                background: #f0f3f4;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+                padding: 28px 18px;
+                text-align: center;
+                width: 260px;
+                min-width: 210px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 10px;
+            "
+        >
+            <div style="font-size: 2.5rem; margin-bottom: 16px; color: #21968b;">🖥️</div>
+            <div style="font-weight: 600; font-size: 1.15rem; margin-bottom: 8px; color: #333434;">Solicitar Algo</div>
+            <div style="font-size: 1rem; color: #555; margin-bottom: 20px;">Explore todos os servi&ccedil;os dispon&iacute;veis para suportar o seu trabalho.</div>
+            <a
+                style="display: inline-block; width: 180px; text-align: center; padding: 12px 0; background: #5bd150; border-radius: 24px; text-decoration: none; font-weight: 500; font-size: 1.07rem;"
+                href="<INSIRA_LINK_CATALOGO_SERVICOS_SERVICENOW>"
+                target="_blank"
+                rel="noopener"
+            >
+                <span style="color: #052839;">Ver Cat&aacute;logo</span>
+            </a>
+        </div>
+        <!-- Card 3: My Requests -->
+        <div
+            style="
+                background: #f0f3f4;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+                padding: 28px 18px;
+                text-align: center;
+                width: 260px;
+                min-width: 210px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 10px;
+            "
+        >
+            <div style="font-size: 2.5rem; margin-bottom: 16px; color: #21968b;">🗂️</div>
+            <div style="font-weight: 600; font-size: 1.15rem; margin-bottom: 8px; color: #333434;">Meus Pedidos</div>
+            <div style="font-size: 1rem; color: #555; margin-bottom: 20px;">Veja e acompanhe todos os seus chamados e pedidos para TI.</div>
+            <a
+                style="display: inline-block; width: 180px; text-align: center; padding: 12px 0; background: #5bd150; border-radius: 24px; text-decoration: none; font-weight: 500; font-size: 1.07rem;"
+                href="<INSIRA_LINK_MEUS_REQUESTS_SERVICENOW>"
+                target="_blank"
+                rel="noopener"
+            >
+                <span style="color: #052839;">Meus Pedidos</span>
+            </a>
+        </div>
+        <!-- Card 4: Ask a Question -->
+        <div
+            style="
+                background: #f0f3f4;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+                padding: 28px 18px;
+                text-align: center;
+                width: 260px;
+                min-width: 210px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 10px;
+            "
+        >
+            <div style="font-size: 2.5rem; margin-bottom: 16px; color: #21968b;">❓</div>
+            <div style="font-weight: 600; font-size: 1.15rem; margin-bottom: 8px; color: #333434;">Fazer Pergunta</div>
+            <div style="font-size: 1rem; color: #555; margin-bottom: 20px;">Tem uma d&uacute;vida? Entre em contato para obter esclarecimentos e suporte.</div>
+            <a
+                style="display: inline-block; width: 180px; text-align: center; padding: 12px 0; background: #5bd150; border-radius: 24px; text-decoration: none; font-weight: 500; font-size: 1.07rem;"
+                href="<INSIRA_LINK_Q-A_WORKVIVO>"
+                rel="noopener"
+            >
+                <span style="color: #052839;">Perguntar</span>
+            </a>
+        </div>
+        <!-- Card 5: Knowledge Base -->
+        <div
+            style="
+                background: #f0f3f4;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+                padding: 28px 18px;
+                text-align: center;
+                width: 260px;
+                min-width: 210px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 10px;
+            "
+        >
+            <div style="font-size: 2.5rem; margin-bottom: 16px; color: #21968b;">📚</div>
+            <div style="font-weight: 600; font-size: 1.15rem; margin-bottom: 8px; color: #333434;">Artigos</div>
+            <div style="font-size: 1rem; color: #555; margin-bottom: 20px;">Encontre respostas, guias e dicas em nossa base de conhecimento.</div>
+            <a
+                style="display: inline-block; width: 180px; text-align: center; padding: 12px 0; background: #5bd150; border-radius: 24px; text-decoration: none; font-weight: 500; font-size: 1.07rem;"
+                href="<INSIRA_LINK_BASE_CONHECIMENTO_SERVICENOW>"
+                target="_blank"
+                rel="noopener"
+            >
+                <span style="color: #052839;">Buscar Artigos</span>
+            </a>
+        </div>
+        <!-- Card 6: Service Status -->
+        <div
+            style="
+                background: #f0f3f4;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+                padding: 28px 18px;
+                text-align: center;
+                width: 260px;
+                min-width: 210px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 10px;
+            "
+        >
+            <div style="font-size: 2.5rem; margin-bottom: 16px; color: #21968b;">📊</div>
+            <div style="font-weight: 600; font-size: 1.15rem; margin-bottom: 8px; color: #333434;">Status dos Servi&ccedil;os</div>
+            <div style="font-size: 1rem; color: #555; margin-bottom: 20px;">Acompanhe em tempo real o status das aplica&ccedil;&otilde;es de neg&oacute;cios.</div>
+            <a
+                style="display: inline-block; width: 180px; text-align: center; padding: 12px 0; background: #5bd150; border-radius: 24px; text-decoration: none; font-weight: 500; font-size: 1.07rem;"
+                href="<INSIRA_LINK_PAGINA_STATUS_SERVICENOW>"
+                target="_blank"
+                rel="noopener"
+            >
+                <span style="color: #052839;">Ver Status</span>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<div style="max-width: 1000px; margin: 0 auto 24px auto; padding: 16px 24px; background: #e5e8ea; border-radius: 16px; text-align: center; color: #888; font-size: 1rem; box-shadow: 0 2px 8px rgba(51, 52, 52, 0.06);">
+    <span style="font-family: 'Helvetica', Arial, sans-serif;">&copy; 2025 IT Service Management | <span style="color: #052839; font-weight: 600;">Powered by Workvivo + ServiceNow</span></span>
+</div>
