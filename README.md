@@ -3,7 +3,7 @@ A collection of reusable templates and resources for Workvivo, designed to accel
 
 
 ## Summary
-- **wv-servicenow:** Custom Workvivo pages designed for seamless ITSM and Internal Comms integration using ServiceNow.
+- **wv-servicenow:** Custom Workvivo pages designed for seamless ITSM and Internal Comms integration using ServiceNow. [Screenshots](https://cafetiria.wordpress.com/2025/06/20/criar-espaco-na-workvivo-integrado-com-servicenow)
 
 
 ## How to implement
