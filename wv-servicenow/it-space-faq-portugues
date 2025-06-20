@@ -1,0 +1,84 @@
+<!-- Banner with Welcome & Search Bar -->
+<div style="width: 100%; background: #052839; border-radius: 16px 16px 0 0; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 28px 10px;">
+    <span style="color: #fff; font-size: 2rem; font-weight: bold; letter-spacing: 1px; text-align: center; margin-bottom: 15px; font-family: 'Helvetica', Arial, sans-serif;">Bem-Vindo(a) ao Espa&ccedil;o de TI</span>
+    <!-- Simulated Search Bar -->
+    <a
+        style="display: flex; align-items: center; width: 90%; max-width: 420px; background: #e5e8ea; border: 1.5px solid #b7b7b7; border-radius: 12px; padding: 8px 18px; text-decoration: none; box-shadow: 0 2px 8px rgba(51, 52, 52, 0.06);"
+        href="<INSIRA_LINK_BUSCA_WORKVIVO>"
+        rel="noopener"
+    >
+        <span style="font-size: 1.25rem; color: #21968b; margin-right: 12px;">🔍</span> <span style="color: #888; font-size: 1.07rem; flex: 1; text-align: left; font-family: 'Helvetica', Arial, sans-serif;">Como podemos ajudar?</span>
+    </a>
+</div>
+<!-- Menu Bar -->
+<div
+    style="
+        width: 100%;
+        background: #2b3069;
+        text-align: center;
+        padding: 12px 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px 20px;
+    "
+>
+    <a style="text-decoration: none; font-weight: 600; font-size: 1.1rem; font-family: 'Helvetica', Arial, sans-serif;" href="<INSIRA_LINK_HOME_ESPACO_WORKVIVO>"><span style="color: #fff;">Home</span></a>
+</div>
+<!-- Main Container - FAQ -->
+<div style="max-width: 1000px; margin: 0 auto 24px auto; padding: 24px; background: #fff; border-radius: 16px; box-shadow: 0 4px 24px rgba(51, 52, 52, 0.08); font-family: 'Helvetica', Arial, sans-serif; color: #222;">
+    <div style="text-align: center; font-size: 1.8rem; font-weight: 600; margin-bottom: 32px; color: #333434;">Perguntas Frequentes</div>
+    <!-- FAQ Item 1 -->
+    <div style="margin-bottom: 24px; border-left: 3px solid #5bd150; padding-left: 15px;">
+        <div style="font-weight: 600; font-size: 1.15rem; margin-bottom: 8px; color: #052839;">Como fa&ccedil;o para obter ajuda de TI?</div>
+        <div style="font-size: 1rem; color: #555; line-height: 1.6;">
+            Para todos os problemas n&atilde;o urgentes, a melhor maneira de obter ajuda &eacute; <a style="color: #21968b; text-decoration: none; font-weight: 600;" href="<INSIRA_LINK_CRIAR_CHAMADO_SERVICENOW>">Abrir um Chamado</a> usando nosso portal de autoatendimento. Isso
+            garante que sua solicita&ccedil;&atilde;o seja rastreada e atribu&iacute;da &agrave; equipe certa. Para problemas urgentes que afetam as opera&ccedil;&otilde;es, ligue para o nosso ramal.
+        </div>
+    </div>
+    <!-- FAQ Item 2 -->
+    <div style="margin-bottom: 24px; border-left: 3px solid #5bd150; padding-left: 15px;">
+        <div style="font-weight: 600; font-size: 1.15rem; margin-bottom: 8px; color: #052839;">Qual &eacute; o n&uacute;mero do ramal de TI?</div>
+        <div style="font-size: 1rem; color: #555; line-height: 1.6;">
+            Nosso ramal de TI funciona 24 horas por dia, 7 dias por semana e est&aacute; dispon&iacute;vel para interrup&ccedil;&otilde;es cr&iacute;ticas de sistemas ou incidentes de seguran&ccedil;a. Voc&ecirc; pode entrar em contato
+            conosco pelo telefone <strong>+55 (11) 5555-1111</strong>. Por favor, tenha sua matr&iacute;cula em m&atilde;os ao ligar.
+        </div>
+    </div>
+    <!-- FAQ Item 3 -->
+    <div style="margin-bottom: 24px; border-left: 3px solid #5bd150; padding-left: 15px;">
+        <div style="font-weight: 600; font-size: 1.15rem; margin-bottom: 8px; color: #052839;">Como fa&ccedil;o para redefinir minha senha?</div>
+        <div style="font-size: 1rem; color: #555; line-height: 1.6;">
+            Voc&ecirc; pode redefinir sua senha de rede a qualquer momento usando nossa <a style="color: #21968b; text-decoration: none; font-weight: 600;" href="<INSIRA_LINK_SERVICO_SENHA_SERVICENOW>">Aplica&ccedil;&atilde;o de Redefini&ccedil;&atilde;o de Senhas</a>.
+            Voc&ecirc; dever&aacute; verificar sua identidade com perguntas de seguran&ccedil;a que voc&ecirc; configurou anteriormente. Se voc&ecirc; n&atilde;o conseguir usar a ferramenta, abra um chamado.
+        </div>
+    </div>
+    <!-- FAQ Item 4 -->
+    <div style="margin-bottom: 24px; border-left: 3px solid #5bd150; padding-left: 15px;">
+        <div style="font-weight: 600; font-size: 1.15rem; margin-bottom: 8px; color: #052839;">Como posso solicitar um novo software?</div>
+        <div style="font-size: 1rem; color: #555; line-height: 1.6;">
+            Todas as solicita&ccedil;&otilde;es de software devem ser enviadas por meio do <a style="color: #21968b; text-decoration: none; font-weight: 600;" href="<INSIRA_LINK_CATALOGO_SERVICOS_SERVICENOW>">Cat&aacute;logo de Servi&ccedil;os</a>. Procure o software de que
+            voc&ecirc; precisa e preencha o formul&aacute;rio de solicita&ccedil;&atilde;o. Observe que alguns softwares exigem aprova&ccedil;&atilde;o, que &eacute; solicitada automaticamente pelo sistema.
+        </div>
+    </div>
+    <!-- FAQ Item 5 -->
+    <div style="margin-bottom: 24px; border-left: 3px solid #5bd150; padding-left: 15px;">
+        <div style="font-weight: 600; font-size: 1.15rem; margin-bottom: 8px; color: #052839;">Onde est&atilde;o localizadas nossas equipes de suporte?</div>
+        <div style="font-size: 1rem; color: #555; line-height: 1.6;">
+            Temos suporte local em nossos principais escrit&oacute;rios:
+            <ul style="margin-top: 10px; padding-left: 20px;">
+                <li><strong>S&atilde;o Paulo:&nbsp;</strong> 22&ordm; andar, ao lado do refeit&oacute;rio.</li>
+                <li><strong>Boston:</strong> 4&ordm; andar, sala 401B</li>
+                <li><strong>Dublin:</strong> Edif&iacute;cio C, 2&ordm; andar, sala 204.</li>
+                <li><strong>London:</strong> Torre 1, 15&ordm; andar, Sala de Tecnologia.</li>
+            </ul>
+            O hor&aacute;rio &eacute; das 9h &agrave;s 17h, hor&aacute;rio local. N&atilde;o &eacute; necess&aacute;rio agendamento.
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<div style="max-width: 1000px; margin: 0 auto 24px auto; padding: 16px 24px; background: #e5e8ea; border-radius: 16px; text-align: center; color: #888; font-size: 1rem; box-shadow: 0 2px 8px rgba(51, 52, 52, 0.06);">
+    <span style="font-family: 'Helvetica', Arial, sans-serif;">&copy; 2025 IT Service Management | <span style="color: #052839; font-weight: 600;">Powered by Workvivo + ServiceNow</span></span>
+</div>
